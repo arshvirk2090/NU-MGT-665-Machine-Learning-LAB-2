@@ -28,4 +28,4 @@ The resampling results indicate that the model's predictions deviate from the ac
 ## Conclusion
 While the predictive model demonstrates reasonable accuracy, precision, recall, and AUC metrics, there is room for improvement. The model's coefficients highlight significant predictors of withdrawal, providing actionable insights for intervention strategies. However, the model's explanatory power is limited, suggesting the need for further refinement through feature engineering, model selection, or parameter tuning. 
 
-Please run the code "MGT 665 LAB-2.R" for analysing the outcome given in the report. 
+
