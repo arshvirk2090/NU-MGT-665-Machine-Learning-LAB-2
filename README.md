@@ -23,9 +23,9 @@ The confusion matrix offers a detailed breakdown of the model's predictions:
 - The AUC-PR (Area Under the Precision-Recall Curve) value of around 0.571 suggests a moderate balance between precision and recall. This means that the model strikes a fair equilibrium between accurately identifying positive instances and capturing all positive cases within the dataset.
 
 ## Resampling Results
-Resampling outcomes show an average RMSE of approximately 0.4457 units and an R-squared value of approximately 0.0818, indicating the model explains only about 8.18% of the variance. The MAE is approximately 0.3969, suggesting relatively close alignment between predictions and actual values.
+The resampling results indicate that the model's predictions deviate from the actual values by an average RMSE of approximately 0.4457 units. The R-squared value is approximately 0.0818, suggesting that the model explains only about 8.18% of the variance in the dependent variable. The MAE is approximately 0.3969, indicating relatively close alignment between the model's predictions and the actual values. However, the low R-squared value implies that the model may not fully capture the variability in the data.
 
 ## Conclusion
-The predictive model for student withdrawals in education demonstrates moderate performance, with strengths in distinguishing classes and balancing precision and recall. However, it exhibits weaknesses in explaining variance, indicating potential areas for improvement.
+The predictive model for student withdrawals in education shows moderate performance, with an accuracy of approximately 70.28%. Significant factors influencing withdrawal likelihood include specific modules, presentations, and demographic variables. While the model demonstrates strengths in certain areas, such as distinguishing between classes and balancing precision and recall, it also exhibits weaknesses, particularly in explaining variance.
 
 Please run the code "MGT 665 LAB-2.R" for analysing the outcome given in the report. 
