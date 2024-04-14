@@ -18,8 +18,9 @@ The confusion matrix offers a detailed breakdown of the model's predictions:
 | Actual Positive (1)  | 791                    | 162                   |
 
 ## Area Under the Curve (AUC) Metrics
-- AUC-ROC: Approximately 0.666, indicating moderate ability to distinguish between classes.
-- AUC-PR: Around 0.571, suggesting a fair balance between precision and recall.
+- The AUC-ROC (Area Under the Receiver Operating Characteristic Curve) value of approximately 0.666 suggests that the model has a moderate ability to distinguish between the positive and negative classes. A higher AUC-ROC indicates better discrimination, so a value of 0.666 indicates that the model performs better than random chance (where AUC-ROC = 0.5), but there is room for improvement.
+  
+-the AUC-PR (Area Under the Precision-Recall Curve) value of around 0.571 suggests a moderate balance between precision and recall. This means that the model strikes a fair equilibrium between accurately identifying positive instances and capturing all positive cases within the dataset.
 
 ## Resampling Results
 Resampling outcomes show an average RMSE of approximately 0.4457 units and an R-squared value of approximately 0.0818, indicating the model explains only about 8.18% of the variance. The MAE is approximately 0.3969, suggesting relatively close alignment between predictions and actual values.
