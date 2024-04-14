@@ -2,7 +2,7 @@
 library(tidyverse)
 
 # Load student data from an online source
-student_data <- read.csv("https://raw.githubusercontent.com/arshvirk2090/NU-MGT-665-Machine-Learning-LAB-2/main/oulad-students.csv")
+student_data <- read.csv("https://raw.githubusercontent.com/arshvirk2090/NU-MGT-665-Machine-Learning-LAB-1/main/oulad-students.csv")
 
 # Data Reprocessing: Remove unnecessary columns(variables) that are not needed as these coloumns are not relevant to prediction of students withdrawl from college
 student_data <- student_data %>%
