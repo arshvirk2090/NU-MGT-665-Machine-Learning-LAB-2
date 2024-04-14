@@ -26,6 +26,6 @@ The confusion matrix offers a detailed breakdown of the model's predictions:
 The resampling results indicate that the model's predictions deviate from the actual values by an average RMSE of approximately 0.4457 units. The R-squared value is approximately 0.0818, suggesting that the model explains only about 8.18% of the variance in the dependent variable. The MAE is approximately 0.3969, indicating relatively close alignment between the model's predictions and the actual values. However, the low R-squared value implies that the model may not fully capture the variability in the data.
 
 ## Conclusion
-The predictive model for student withdrawals in education shows moderate performance, with an accuracy of approximately 70.28%. Significant factors influencing withdrawal likelihood include specific modules, presentations, and demographic variables. While the model demonstrates strengths in certain areas, such as distinguishing between classes and balancing precision and recall, it also exhibits weaknesses, particularly in explaining variance.
+While the predictive model demonstrates reasonable accuracy, precision, recall, and AUC metrics, there is room for improvement. The model's coefficients highlight significant predictors of withdrawal, providing actionable insights for intervention strategies. However, the model's explanatory power is limited, suggesting the need for further refinement through feature engineering, model selection, or parameter tuning. 
 
 Please run the code "MGT 665 LAB-2.R" for analysing the outcome given in the report. 
