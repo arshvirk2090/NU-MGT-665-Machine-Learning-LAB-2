@@ -7,7 +7,7 @@ This repository contains a comprehensive analysis of a predictive model's perfor
 The coefficients of predictor variables are analyzed to understand their impact on withdrawal likelihood. Modules BBB, CCC, DDD, and FFF, along with presentations in 2014B, exhibit significant positive effects on withdrawal, while male gender (genderM) has a significant negative effect. Certain regions and educational backgrounds also influence withdrawal likelihood, with higher deprivation bands associated with increased withdrawal rates.
 
 ## Performance Metrics
-The predictive model achieved an accuracy of approximately 70.28%. Precision, recall, and F1 score provide nuanced insights, with precision at around 52.77%, recall at approximately 17.00%, and F1 score at 25.71%, indicating moderate overall performance.
+predictive model achieved an accuracy of approximately 70.28%, indicating that it correctly classified around 70.28% of all observations in the dataset. However, precision, recall, and the F1 score provide more nuanced insights. The precision, measuring around 52.77%, indicates that approximately 52.77% of the observations predicted as positive by the model were actually positive. Recall, at approximately 17.00%, suggests that the model correctly identified only about 17.00% of all positive instances in the dataset. The F1 score, a balance between precision and recall, is approximately 25.71%, indicating a moderate overall performance.
 
 ## Confusion Matrix
 The confusion matrix offers a detailed breakdown of the model's predictions:
