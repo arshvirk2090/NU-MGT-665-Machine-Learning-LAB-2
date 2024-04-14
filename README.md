@@ -12,10 +12,10 @@ The predictive model achieved an accuracy of approximately 70.28%. Precision, re
 ## Confusion Matrix
 The confusion matrix offers a detailed breakdown of the model's predictions:
 
-|                  | Predicted Negative | Predicted Positive |
-|------------------|--------------------|--------------------|
-| Actual Negative  | 2051               | 145                |
-| Actual Positive  | 791                | 162                |
+|                      | Predicted Negative (0) | Predicted Positive (1)|
+|----------------------|------------------------|-----------------------|
+| Actual Negative (0)  | 2051                   | 145                   |
+| Actual Positive (1)  | 791                    | 162                   |
 
 ## Area Under the Curve (AUC) Metrics
 - AUC-ROC: Approximately 0.666, indicating moderate ability to distinguish between classes.
